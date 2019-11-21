@@ -1,0 +1,173 @@
+body,#root {
+  background:#f3f3f3;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  min-width: 100%;
+  margin: 5px;
+}
+
+img {
+  height: 220px;
+}
+
+a {
+  color: #e74c3c !important;
+}
+
+button:focus {
+  outline: none;
+}
+
+.App {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  width: 70%;
+}
+
+.App-header {
+  border: 3px solid black;
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+}
+
+.App-title {
+  font-size: 2em;
+  margin: 0;
+}
+
+.container-main{
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+/* search section */
+#searchBlock{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 30px;
+  padding: 0;
+  
+  
+}
+.Search-form {
+  display: grid;
+  grid-template-columns: 1fr  .5fr .5fr;
+  align-content: center;
+  width: 100%;
+  grid-gap: 2px;
+}
+
+.searchinput{
+  text-align: center;
+}
+
+#search-type{
+  text-align: center;
+  padding: 10px;
+
+}
+
+#searchButton{
+  margin: 5px;
+  background-color: darkblue;
+  color: #fff;
+  outline: inherit;
+  border: none;
+}
+
+#searchButton:hover{
+  background-color: #4b4bf3;
+}
+
+#searchButton:focus{
+  background-color: #6f6ff1;
+}
+
+/* Movies COntainer */
+.movieslist{
+  width: 100%;
+  min-width:100%;
+  border: 1px solid black;
+}
+.viewBlock{
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  font-size: 14px;
+  margin-top: 20px;
+  border-bottom: .5px solid gray;
+  box-shadow: .25px .25px gray;
+}
+.viewlist{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+.moviedetails{
+  display: grid;
+  align-items: center;
+  font-size: 11px;
+}
+.detailcontainer p{
+  margin: 5px;
+}
+.MoviesContainer{
+  width: 100%;
+}
+.catagoryButtons{
+  display: flex;
+  flex-flow: row;
+
+}
+.NavigationMenu button{
+  height: 30px;
+  background-color: lightgray;
+  outline: inherit;
+  border: none;
+}
+.NavigationMenu button:focus{
+  border-bottom: 1px solid blue;
+}
+
+
+.catagoryButtons button {
+  flex-grow: 1;
+  border: none;
+  height: 25px;
+}
+
+.catagoryButtons button:focus {
+  border-bottom: 1px solid blue;
+}
+
+Button.MuiButtonBase-root{
+  flex-grow: 1;
+  text-align: center;
+  width: 100%;
+}
+
+.navBlock{
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+.Categories{
+  margin-top: 20px;
+}
+.MuiInputBase-root{
+  margin: 0;
+}
+
+.MuiFormLabel-root{
+  background-color: white;
+}
+.viewareaall{
+  width: 100%;
+  margin-top: 20px;
+}
